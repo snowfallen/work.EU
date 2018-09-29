@@ -1,0 +1,142 @@
+body{
+    background-image:url("7804.jpg");
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    padding-top: -15px;
+    width: 1366px;
+    height: auto;
+}
+header{
+
+    font-family: Lato, serif;
+}
+@font-face {
+    font-family: Lato;
+    src: url('9622.ttf');
+}
+.dws-menu*{
+    margin: 0;
+    padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+list-style: none;
+}
+.dws-menu > ul{
+display: flex;
+justify-content: center;
+}
+
+.dws-menu > ul li {
+    position: relative;
+    border-right: 1px solid grey;
+}
+.dws-menu > ul li > a i.fa{
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    font-size: 18px;
+}
+.dws-menu > ul li:first-child{
+    border-left:0 solid grey ;
+}
+.dws-menu > ul li:last-child{
+    border-right: 0 solid grey;
+
+}
+.dws-menu li a:hover{
+    background: white;
+    color:black;
+    box-shadow: 1px 2px 10px -2px black;
+    transition: 0.4s ease;
+}
+.dws-menu > ul li a {
+    display: block;
+    background: #D3FCFF;
+    padding: 10px 30px 15px 40px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+
+}
+.dws-menu > ul li a {
+text-align: left;
+
+}
+/*Sub menu*/
+.dws-menu li ul{
+    position: absolute;
+    min-width: 150px;
+display: none;
+}
+.dws-menu li>ul li{
+    border: 0 solid grey;
+    position: relative; right: 40px;
+}
+.dws-menu li> ul li a{
+    padding: 10px;
+}
+.dws-menu li>ul li:hover{
+    position: relative; right: 50px;
+    box-shadow: 1px 2px 10px -1px black;
+    transition: 0.4s ease;
+}
+.dws-menu li:hover>ul{
+    display: block;
+}
+.image{
+    display:flex;
+    justify-content: center;
+}
+h2 span {
+    position:absolute; right: 200px; top: 190px;
+    border-radius: 7px;
+    color			: white;
+    font			: bold 24px/45px "Times New Roman";
+    letter-spacing		: -1px;
+    background		: rgb(0, 0, 0);
+    background		: rgba(0, 0, 0, 0.7);
+    padding			: 10px;
+}
+p span {
+
+    position:absolute; right: 200px; top: 280px;
+    width: 800px;
+    height: auto;
+    border-radius: 7px;
+    color			: white;
+    font			: bold 24px/45px "Times New Roman";
+    letter-spacing		: -1px;
+    font-size: 20px;
+    background		: rgb(0, 0, 0);
+    background		: rgba(0, 0, 0, 0.7);
+    padding			: 10px;
+}
+.footer{
+    margin: 0;
+    padding:0 ;
+    width: 1369px;
+    height: 60px;
+    background-color: #263441;
+    justify-content: end;
+    position: absolute;left: -20px;
+}
+.footer >ul  {
+    display: flex;
+    text-indent: 1.5em;
+    list-style: none;
+    text-align: justify;
+    position: absolute; left: 480px;right: 400px ;
+
+}
+.footer > ul li a i {
+    color: white;
+}
+.footer ul> li a i:hover{
+    color: #ff253a;
+    transition: 0.3s;
+}
